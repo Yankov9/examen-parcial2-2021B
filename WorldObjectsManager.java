@@ -35,9 +35,9 @@ public abstract class WorldObjectsManager implements ItemObserver
         }    
     }
     
-    public abstract void itemEaten(){
+    public void itemEaten(){
         enableNewItemCounter = true;
     }
     
-    public  Actor getNewWorldObject();
+    public abstract Actor getNewWorldObject();
 }
